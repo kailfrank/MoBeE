@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WorldList>
+<WorldList version="1.0">
+    
+<!-- width=x (foward/back) height=y (left/right) depth=z (up/down) -->
+
+<object name="table" pz="-.02" px="-0.145"> <!-- this is an obstacle by default -->
+    <box width="1" depth=".001" height="1.5"/>
+</object>
+
+<object name="ball" px="-0.3" py="-.1" pz=".05" type="target" r="0" g="100" b="0">
+    <sphere radius=".05"/>
+</object>
+    
+<object name="cylinder" px="-0.4" py="0" pz=".1" hx="1" hy="1" hz="1" type="obstacle" r="0" g="0" b="100">
+    <cylinder radius=".05" height="0.1"/>
+</object>
+
+</WorldList>
